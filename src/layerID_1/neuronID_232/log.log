@@ -1,0 +1,405 @@
+11:03:08,390 root DEBUG Check that model weights are dtype tf.float64: 	 <dtype: 'float64'>
+11:03:08,390 root INFO eps: 1e-06
+11:03:08,390 root INFO tol: 1e-06
+11:03:08,442 root DEBUG Load dual points from file: ../data/dual_points_cifar10_3x256_64_10_float64.
+11:03:08,457 root DEBUG 
+
+=================== Experiment ID #0 	 Dual Point ID: 1 ===================
+11:03:08,468 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.267E-09|<1.000E-06)
+11:03:08,468 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:08,915 root DEBUG Side: ON	 Angle(dx0, dx): 0.09 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.315E-01 	 Total distance: 2.315E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([201], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:09,185 root DEBUG Side: ON	 Angle(dx0, dx): 0.71 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.931E-01 	 Total distance: 6.246E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([91], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:09,705 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.684E-02 	 Total distance: 7.684E-02 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([177], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:09,964 root DEBUG Side: OFF	 Angle(dx0, dx): 0.08 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.195E-01 	 Total distance: 3.964E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([47], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:10,211 root DEBUG Side: OFF	 Angle(dx0, dx): 0.04 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.059E-01 	 Total distance: 6.022E-01 	 Future toggles: 0 	 Past toggles: 3 	 Toggled: [[1, array([139], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:10,511 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.973E-02 	 Total distance: 6.720E-01 	 Future toggles: 0 	 Past toggles: 4 	 Toggled: [[1, array([128], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:10,763 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.352E-01 	 Total distance: 1.407E+00 	 Future toggles: 0 	 Past toggles: 5 	 Toggled: [[1, array([243], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:11,39 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.811E-02 	 Total distance: 1.445E+00 	 Future toggles: 0 	 Past toggles: 6 	 Toggled: [[1, array([190], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:11,256 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.896E-01 	 Total distance: 1.735E+00 	 Future toggles: 0 	 Past toggles: 7 	 Toggled: [[1, array([109], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:11,488 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.341E-01 	 Total distance: 2.369E+00 	 Future toggles: 0 	 Past toggles: 8 	 Toggled: [[1, array([90], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:11,692 root DEBUG Side: OFF	 Angle(dx0, dx): 0.07 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.083E-01 	 Total distance: 2.477E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([34], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:11,692 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:11,692 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 59.73 	 cIDON = [0 1], cIDOFF = [0 1]
+11:03:11,693 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:11,693 root DEBUG dOFF/dON = 4.0
+11:03:11,693 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.550941145268, 'dON1': 0.624612737119265, 'cIDON1': array([0, 1], dtype=int64), 'dON_patch_1': 0.624612737119265, 'nTON': 1, 'dON': 0.624612737119265, 'dxOFFAngle': 89.3806414366932, 'dOFF1': 2.4772640369187475, 'cIDOFF1': array([0, 1], dtype=int64), 'dOFF_patch_1': 2.4772640369187475, 'nTOFF': 1, 'dOFF': 2.4772640369187475, 'SUCCESS': True}
+11:03:11,723 root DEBUG 
+
+=================== Experiment ID #1 	 Dual Point ID: 2 ===================
+11:03:11,733 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.799E-10|<1.000E-06)
+11:03:11,734 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:12,228 root DEBUG Side: ON	 Angle(dx0, dx): 0.20 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.606E-02 	 Total distance: 2.606E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([47], dtype=int64), array([[ True]])]] 	 class: [7 9]
+11:03:12,553 root DEBUG Side: OFF	 Angle(dx0, dx): 0.20 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.436E-01 	 Total distance: 3.436E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([166], dtype=int64), array([[False]])]] 	 class: [7 9]
+11:03:12,553 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:12,554 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 85.90 	 cIDON = [7 9], cIDOFF = [7 9]
+11:03:12,554 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:12,554 root DEBUG dOFF/dON = 13.2
+11:03:12,554 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.42373705593143, 'dON1': 0.02606092956011013, 'cIDON1': array([7, 9], dtype=int64), 'dON_patch_1': 0.02606092956011013, 'nTON': 1, 'dON': 0.02606092956011013, 'dxOFFAngle': 88.258265237937, 'dOFF1': 0.34357967906608633, 'cIDOFF1': array([7, 9], dtype=int64), 'dOFF_patch_1': 0.34357967906608633, 'nTOFF': 1, 'dOFF': 0.34357967906608633, 'SUCCESS': True}
+11:03:12,730 root DEBUG 
+
+=================== Experiment ID #2 	 Dual Point ID: 3 ===================
+11:03:12,739 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |4.713E-09|<1.000E-06)
+11:03:12,739 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:13,77 root DEBUG Side: ON	 Angle(dx0, dx): 1.43 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.464E-06 	 Total distance: 1.464E-06 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[5, array([0, 1], dtype=int64), array([[0.],
+       [1.]])]] 	 class: [1 8]
+11:03:13,547 root DEBUG Side: OFF	 Angle(dx0, dx): 0.32 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.983E-01 	 Total distance: 6.983E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([199], dtype=int64), array([[False]])]] 	 class: [1 8]
+11:03:13,858 root DEBUG Side: OFF	 Angle(dx0, dx): 0.33 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 8.320E-02 	 Total distance: 7.815E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([144], dtype=int64), array([[ True]])]] 	 class: [1 8]
+11:03:13,858 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:13,858 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 100.00 	 cIDON = [0 8], cIDOFF = [1 8]
+11:03:13,858 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:13,858 root DEBUG dOFF/dON = 533662.8
+11:03:13,858 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.7757317615581, 'dON1': 1.4644943784918463e-06, 'cIDON1': array([0, 8], dtype=int64), 'dON_patch_1': 1.4644943784918463e-06, 'nTON': 1, 'dON': 1.4644943784918463e-06, 'dxOFFAngle': 89.44103656368165, 'dOFF1': 0.7815461975528855, 'cIDOFF1': array([1, 8], dtype=int64), 'dOFF_patch_1': 0.7815461975528855, 'nTOFF': 1, 'dOFF': 0.7815461975528855, 'SUCCESS': True}
+11:03:14,17 root DEBUG 
+
+=================== Experiment ID #3 	 Dual Point ID: 4 ===================
+11:03:14,25 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.458E-08|<1.000E-06)
+11:03:14,25 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:14,364 root DEBUG Side: ON	 Angle(dx0, dx): 0.97 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.327E-01 	 Total distance: 1.327E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([43], dtype=int64), array([[ True]])]] 	 class: [8 9]
+11:03:14,768 root DEBUG Side: OFF	 Angle(dx0, dx): 0.33 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.504E-01 	 Total distance: 2.504E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([38], dtype=int64), array([[False]])]] 	 class: [8 9]
+11:03:14,769 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:14,769 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 30.71 	 cIDON = [8 9], cIDOFF = [8 9]
+11:03:14,769 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:14,769 root DEBUG dOFF/dON = 1.9
+11:03:14,769 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.06523762570427, 'dON1': 0.13273791855015046, 'cIDON1': array([8, 9], dtype=int64), 'dON_patch_1': 0.13273791855015046, 'nTON': 1, 'dON': 0.13273791855015046, 'dxOFFAngle': 89.14090492819145, 'dOFF1': 0.25041196554870865, 'cIDOFF1': array([8, 9], dtype=int64), 'dOFF_patch_1': 0.25041196554870865, 'nTOFF': 1, 'dOFF': 0.25041196554870865, 'SUCCESS': True}
+11:03:14,857 root DEBUG 
+
+=================== Experiment ID #4 	 Dual Point ID: 5 ===================
+11:03:14,868 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.773E-08|<1.000E-06)
+11:03:14,868 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:15,366 root DEBUG Side: ON	 Angle(dx0, dx): 0.30 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 9.831E-01 	 Total distance: 9.831E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([231], dtype=int64), array([[False]])]] 	 class: [2 8]
+11:03:15,880 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.767E-01 	 Total distance: 6.767E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([177], dtype=int64), array([[ True]])]] 	 class: [2 8]
+11:03:16,90 root DEBUG Side: OFF	 Angle(dx0, dx): 0.09 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.338E-02 	 Total distance: 6.901E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([0], dtype=int64), array([[False]])]] 	 class: [2 8]
+11:03:16,90 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:16,90 root DEBUG 	 nT= 1  	 success?   False    	 (dON-dOFF)/|dON+dOFF|: -17.51 	 cIDON = [2 8], cIDOFF = [2 8]
+11:03:16,91 root DEBUG ===> #(dOFF_patch>dON_patch) = 0/1 = 0.00%
+11:03:16,91 root DEBUG dOFF/dON = 0.7
+11:03:16,91 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.53106119108027, 'dON1': 0.9830656035594962, 'cIDON1': array([2, 8], dtype=int64), 'dON_patch_1': 0.9830656035594962, 'nTON': 1, 'dON': 0.9830656035594962, 'dxOFFAngle': 89.41658968986802, 'dOFF1': 0.6901163976185564, 'cIDOFF1': array([2, 8], dtype=int64), 'dOFF_patch_1': 0.6901163976185564, 'nTOFF': 1, 'dOFF': 0.6901163976185564, 'SUCCESS': False}
+11:03:16,137 root DEBUG 
+
+=================== Experiment ID #5 	 Dual Point ID: 6 ===================
+11:03:16,165 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.188E-08|<1.000E-06)
+11:03:16,165 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:16,597 root DEBUG Side: ON	 Angle(dx0, dx): 0.34 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.021E-01 	 Total distance: 1.021E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([42], dtype=int64), array([[False]])]] 	 class: [3 6]
+11:03:17,44 root DEBUG Side: OFF	 Angle(dx0, dx): 0.10 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.737E-03 	 Total distance: 7.737E-03 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([98], dtype=int64), array([[False]])]] 	 class: [3 6]
+11:03:17,333 root DEBUG Side: OFF	 Angle(dx0, dx): 0.42 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.863E-01 	 Total distance: 1.941E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([123], dtype=int64), array([[ True]])]] 	 class: [3 6]
+11:03:17,333 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:17,333 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 31.07 	 cIDON = [3 6], cIDOFF = [3 6]
+11:03:17,333 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:17,333 root DEBUG dOFF/dON = 1.9
+11:03:17,333 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.79141978844582, 'dON1': 0.10207020306136377, 'cIDON1': array([3, 6], dtype=int64), 'dON_patch_1': 0.10207020306136377, 'nTON': 1, 'dON': 0.10207020306136377, 'dxOFFAngle': 89.65267445915465, 'dOFF1': 0.19406686885548396, 'cIDOFF1': array([3, 6], dtype=int64), 'dOFF_patch_1': 0.19406686885548396, 'nTOFF': 1, 'dOFF': 0.19406686885548396, 'SUCCESS': True}
+11:03:17,538 root DEBUG 
+
+=================== Experiment ID #6 	 Dual Point ID: 7 ===================
+11:03:17,548 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.434E-08|<1.000E-06)
+11:03:17,548 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:17,932 root DEBUG Side: ON	 Angle(dx0, dx): 0.03 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.704E-01 	 Total distance: 2.704E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([190], dtype=int64), array([[ True]])]] 	 class: [6 9]
+11:03:18,213 root DEBUG Side: ON	 Angle(dx0, dx): 0.06 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.754E-01 	 Total distance: 4.458E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([237], dtype=int64), array([[ True]])]] 	 class: [6 9]
+11:03:18,587 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.952E-01 	 Total distance: 4.952E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([9], dtype=int64), array([[False]])]] 	 class: [6 9]
+11:03:18,861 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.554E-02 	 Total distance: 5.307E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([183], dtype=int64), array([[ True]])]] 	 class: [6 9]
+11:03:19,150 root DEBUG Side: OFF	 Angle(dx0, dx): 0.09 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.020E-02 	 Total distance: 5.909E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([141], dtype=int64), array([[False]])]] 	 class: [6 9]
+11:03:19,150 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:19,150 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 13.99 	 cIDON = [6 9], cIDOFF = [6 9]
+11:03:19,150 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:19,150 root DEBUG dOFF/dON = 1.3
+11:03:19,150 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.42983566519734, 'dON1': 0.44584705474083264, 'cIDON1': array([6, 9], dtype=int64), 'dON_patch_1': 0.44584705474083264, 'nTON': 1, 'dON': 0.44584705474083264, 'dxOFFAngle': 89.09902714899707, 'dOFF1': 0.5908893637992594, 'cIDOFF1': array([6, 9], dtype=int64), 'dOFF_patch_1': 0.5908893637992594, 'nTOFF': 1, 'dOFF': 0.5908893637992594, 'SUCCESS': True}
+11:03:19,293 root DEBUG 
+
+=================== Experiment ID #7 	 Dual Point ID: 8 ===================
+11:03:19,303 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |5.809E-08|<1.000E-06)
+11:03:19,303 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:19,650 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.519E-02 	 Total distance: 3.519E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([207], dtype=int64), array([[False]])]] 	 class: [5 9]
+11:03:19,998 root DEBUG Side: OFF	 Angle(dx0, dx): 0.60 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.363E-02 	 Total distance: 6.363E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([201], dtype=int64), array([[False]])]] 	 class: [5 9]
+11:03:19,998 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:19,999 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 28.77 	 cIDON = [5 9], cIDOFF = [5 9]
+11:03:19,999 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:19,999 root DEBUG dOFF/dON = 1.8
+11:03:19,999 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.1877941531284, 'dON1': 0.035191850750769714, 'cIDON1': array([5, 9], dtype=int64), 'dON_patch_1': 0.035191850750769714, 'nTON': 1, 'dON': 0.035191850750769714, 'dxOFFAngle': 88.2474264988858, 'dOFF1': 0.06362555546681223, 'cIDOFF1': array([5, 9], dtype=int64), 'dOFF_patch_1': 0.06362555546681223, 'nTOFF': 1, 'dOFF': 0.06362555546681223, 'SUCCESS': True}
+11:03:20,46 root DEBUG 
+
+=================== Experiment ID #8 	 Dual Point ID: 9 ===================
+11:03:20,56 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.078E-08|<1.000E-06)
+11:03:20,56 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:20,506 root DEBUG Side: ON	 Angle(dx0, dx): 0.11 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.894E-01 	 Total distance: 1.894E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([89], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:20,717 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.672E-01 	 Total distance: 3.566E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([13], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:20,958 root DEBUG Side: ON	 Angle(dx0, dx): 0.14 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.445E-01 	 Total distance: 7.011E-01 	 Future toggles: 0 	 Past toggles: 3 	 Toggled: [[1, array([116], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:21,204 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 8.813E-01 	 Total distance: 1.582E+00 	 Future toggles: 0 	 Past toggles: 4 	 Toggled: [[1, array([3], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:21,520 root DEBUG Side: ON	 Angle(dx0, dx): 0.02 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.395E-02 	 Total distance: 1.636E+00 	 Future toggles: 0 	 Past toggles: 5 	 Toggled: [[1, array([177], dtype=int64), array([[False]])]] 	 class: [3 5]
+11:03:21,859 root DEBUG Side: ON	 Angle(dx0, dx): 0.11 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 9.753E-02 	 Total distance: 1.734E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([124], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:22,300 root DEBUG Side: OFF	 Angle(dx0, dx): 0.24 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.309E-01 	 Total distance: 1.309E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([86], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:22,555 root DEBUG Side: OFF	 Angle(dx0, dx): 0.29 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.949E-01 	 Total distance: 4.258E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([222], dtype=int64), array([[False]])]] 	 class: [3 5]
+11:03:22,783 root DEBUG Side: OFF	 Angle(dx0, dx): 0.19 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.120E-01 	 Total distance: 8.378E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([146], dtype=int64), array([[ True]])]] 	 class: [3 5]
+11:03:22,783 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:22,783 root DEBUG 	 nT= 1  	 success?   False    	 (dON-dOFF)/|dON+dOFF|: -34.84 	 cIDON = [3 5], cIDOFF = [3 5]
+11:03:22,784 root DEBUG ===> #(dOFF_patch>dON_patch) = 0/1 = 0.00%
+11:03:22,784 root DEBUG dOFF/dON = 0.5
+11:03:22,784 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.1440605173167, 'dON1': 1.7339073740420947, 'cIDON1': array([3, 5], dtype=int64), 'dON_patch_1': 1.7339073740420947, 'nTON': 1, 'dON': 1.7339073740420947, 'dxOFFAngle': 89.5986363324081, 'dOFF1': 0.8378200652777825, 'cIDOFF1': array([3, 5], dtype=int64), 'dOFF_patch_1': 0.8378200652777825, 'nTOFF': 1, 'dOFF': 0.8378200652777825, 'SUCCESS': False}
+11:03:22,874 root DEBUG 
+
+=================== Experiment ID #9 	 Dual Point ID: 10 ===================
+11:03:22,883 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.680E-08|<1.000E-06)
+11:03:22,883 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:23,191 root DEBUG Side: ON	 Angle(dx0, dx): 0.51 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.342E-01 	 Total distance: 1.342E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([57], dtype=int64), array([[ True]])]] 	 class: [2 5]
+11:03:23,613 root DEBUG Side: OFF	 Angle(dx0, dx): 0.31 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.160E-01 	 Total distance: 3.160E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([155], dtype=int64), array([[False]])]] 	 class: [2 5]
+11:03:23,613 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:23,613 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 40.39 	 cIDON = [2 5], cIDOFF = [2 5]
+11:03:23,613 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:23,613 root DEBUG dOFF/dON = 2.4
+11:03:23,613 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.47008592839997, 'dON1': 0.13417843910582647, 'cIDON1': array([2, 5], dtype=int64), 'dON_patch_1': 0.13417843910582647, 'nTON': 1, 'dON': 0.13417843910582647, 'dxOFFAngle': 89.38183125921643, 'dOFF1': 0.31597168752575383, 'cIDOFF1': array([2, 5], dtype=int64), 'dOFF_patch_1': 0.31597168752575383, 'nTOFF': 1, 'dOFF': 0.31597168752575383, 'SUCCESS': True}
+11:03:23,675 root DEBUG 
+
+=================== Experiment ID #10 	 Dual Point ID: 11 ===================
+11:03:23,684 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |5.651E-08|<1.000E-06)
+11:03:23,684 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:23,954 root DEBUG Side: ON	 Angle(dx0, dx): 3.09 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.465E-06 	 Total distance: 1.465E-06 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[5, array([0, 1], dtype=int64), array([[1.],
+       [0.]])]] 	 class: [0 8]
+11:03:24,294 root DEBUG Side: OFF	 Angle(dx0, dx): 0.13 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.154E+00 	 Total distance: 1.154E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([219], dtype=int64), array([[ True]])]] 	 class: [1 8]
+11:03:24,294 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:24,295 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 100.00 	 cIDON = [1 8], cIDOFF = [1 8]
+11:03:24,295 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:24,295 root DEBUG dOFF/dON = 787868.4
+11:03:24,295 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.27454761306365, 'dON1': 1.4648242451396924e-06, 'cIDON1': array([1, 8], dtype=int64), 'dON_patch_1': 1.4648242451396924e-06, 'nTON': 1, 'dON': 1.4648242451396924e-06, 'dxOFFAngle': 88.77106229693841, 'dOFF1': 1.154088754175424, 'cIDOFF1': array([1, 8], dtype=int64), 'dOFF_patch_1': 1.154088754175424, 'nTOFF': 1, 'dOFF': 1.154088754175424, 'SUCCESS': True}
+11:03:24,338 root DEBUG 
+
+=================== Experiment ID #11 	 Dual Point ID: 12 ===================
+11:03:24,356 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |6.036E-09|<1.000E-06)
+11:03:24,356 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:24,797 root DEBUG Side: ON	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.745E-02 	 Total distance: 6.745E-02 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([87], dtype=int64), array([[False]])]] 	 class: [3 7]
+11:03:25,89 root DEBUG Side: ON	 Angle(dx0, dx): 0.10 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.088E-02 	 Total distance: 1.083E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([5], dtype=int64), array([[ True]])]] 	 class: [3 7]
+11:03:25,482 root DEBUG Side: OFF	 Angle(dx0, dx): 0.02 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.116E-01 	 Total distance: 2.116E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([112], dtype=int64), array([[ True]])]] 	 class: [3 7]
+11:03:25,729 root DEBUG Side: OFF	 Angle(dx0, dx): 0.05 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.657E+00 	 Total distance: 1.868E+00 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([198], dtype=int64), array([[False]])]] 	 class: [3 7]
+11:03:25,976 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.804E-02 	 Total distance: 1.946E+00 	 Future toggles: 0 	 Past toggles: 3 	 Toggled: [[1, array([202], dtype=int64), array([[ True]])]] 	 class: [3 7]
+11:03:26,221 root DEBUG Side: OFF	 Angle(dx0, dx): 0.30 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.368E+00 	 Total distance: 3.314E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([24], dtype=int64), array([[False]])]] 	 class: [3 7]
+11:03:26,222 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:26,222 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 93.67 	 cIDON = [3 7], cIDOFF = [3 7]
+11:03:26,222 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:26,222 root DEBUG dOFF/dON = 30.6
+11:03:26,222 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.87395654279379, 'dON1': 0.10833346692017015, 'cIDON1': array([3, 7], dtype=int64), 'dON_patch_1': 0.10833346692017015, 'nTON': 1, 'dON': 0.10833346692017015, 'dxOFFAngle': 89.30358366594928, 'dOFF1': 3.3139788970634156, 'cIDOFF1': array([3, 7], dtype=int64), 'dOFF_patch_1': 3.3139788970634156, 'nTOFF': 1, 'dOFF': 3.3139788970634156, 'SUCCESS': True}
+11:03:26,328 root DEBUG 
+
+=================== Experiment ID #12 	 Dual Point ID: 13 ===================
+11:03:26,339 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |5.495E-08|<1.000E-06)
+11:03:26,339 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:26,786 root DEBUG Side: ON	 Angle(dx0, dx): 0.63 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.112E-01 	 Total distance: 2.112E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([22], dtype=int64), array([[False]])]] 	 class: [6 9]
+11:03:27,184 root DEBUG Side: OFF	 Angle(dx0, dx): 0.20 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.646E+00 	 Total distance: 1.646E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([13], dtype=int64), array([[ True]])]] 	 class: [6 9]
+11:03:27,184 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:27,184 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 77.26 	 cIDON = [6 9], cIDOFF = [6 9]
+11:03:27,185 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:27,185 root DEBUG dOFF/dON = 7.8
+11:03:27,185 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.8155123829097, 'dON1': 0.21116592018767022, 'cIDON1': array([6, 9], dtype=int64), 'dON_patch_1': 0.21116592018767022, 'nTON': 1, 'dON': 0.21116592018767022, 'dxOFFAngle': 89.77653672910724, 'dOFF1': 1.6457291662294458, 'cIDOFF1': array([6, 9], dtype=int64), 'dOFF_patch_1': 1.6457291662294458, 'nTOFF': 1, 'dOFF': 1.6457291662294458, 'SUCCESS': True}
+11:03:27,270 root DEBUG 
+
+=================== Experiment ID #13 	 Dual Point ID: 14 ===================
+11:03:27,279 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |3.638E-10|<1.000E-06)
+11:03:27,279 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:27,645 root DEBUG Side: ON	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.714E-01 	 Total distance: 1.714E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([53], dtype=int64), array([[ True]])]] 	 class: [1 8]
+11:03:28,0 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.050E-01 	 Total distance: 7.764E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([8], dtype=int64), array([[ True]])]] 	 class: [1 8]
+11:03:28,275 root DEBUG Side: ON	 Angle(dx0, dx): 0.05 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.004E-02 	 Total distance: 8.065E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([197], dtype=int64), array([[False]])]] 	 class: [1 8]
+11:03:28,576 root DEBUG Side: OFF	 Angle(dx0, dx): 1.86 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.322E-07 	 Total distance: 7.322E-07 	 Future toggles: 0 	 Past toggles: 0 	 Toggled: [[5, array([0, 1], dtype=int64), array([[1.],
+       [0.]])]] 	 class: [0 8]
+11:03:28,758 root DEBUG Side: OFF	 Angle(dx0, dx): 1.86 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.325E-07 	 Total distance: 1.465E-06 	 Future toggles: 0 	 Past toggles: 0 	 Toggled: [[5, array([0, 1], dtype=int64), array([[0.],
+       [1.]])]] 	 class: [1 8]
+11:03:28,978 root DEBUG Side: OFF	 Angle(dx0, dx): 1.86 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.322E-07 	 Total distance: 2.197E-06 	 Future toggles: 0 	 Past toggles: 0 	 Toggled: [[5, array([0, 1], dtype=int64), array([[1.],
+       [0.]])]] 	 class: [0 8]
+11:03:29,168 root DEBUG Side: OFF	 Angle(dx0, dx): 1.86 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.465E-06 	 Total distance: 3.662E-06 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[5, array([0, 1], dtype=int64), array([[0.],
+       [1.]])]] 	 class: [1 8]
+11:03:29,168 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:29,169 root DEBUG 	 nT= 1  	 success?   False    	 (dON-dOFF)/|dON+dOFF|: -100.00 	 cIDON = [1 8], cIDOFF = [0 8]
+11:03:29,169 root DEBUG ===> #(dOFF_patch>dON_patch) = 0/1 = 0.00%
+11:03:29,169 root DEBUG dOFF/dON = 0.0
+11:03:29,169 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.10878107778929, 'dON1': 0.8064608240383351, 'cIDON1': array([1, 8], dtype=int64), 'dON_patch_1': 0.8064608240383351, 'nTON': 1, 'dON': 0.8064608240383351, 'dxOFFAngle': 88.83752768078627, 'dOFF1': 3.6618549956969137e-06, 'cIDOFF1': array([0, 8], dtype=int64), 'dOFF_patch_1': 3.6618549956969137e-06, 'nTOFF': 1, 'dOFF': 3.6618549956969137e-06, 'SUCCESS': False}
+11:03:29,265 root DEBUG 
+
+=================== Experiment ID #14 	 Dual Point ID: 15 ===================
+11:03:29,274 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |1.672E-08|<1.000E-06)
+11:03:29,275 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:29,599 root DEBUG Side: ON	 Angle(dx0, dx): 0.33 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 8.438E-02 	 Total distance: 8.438E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([255], dtype=int64), array([[ True]])]] 	 class: [0 1]
+11:03:30,188 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.296E-01 	 Total distance: 4.296E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([15], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:30,427 root DEBUG Side: OFF	 Angle(dx0, dx): 0.08 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.217E-02 	 Total distance: 4.917E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([6], dtype=int64), array([[False]])]] 	 class: [0 1]
+11:03:30,427 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:30,427 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 70.71 	 cIDON = [0 1], cIDOFF = [0 1]
+11:03:30,427 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:30,427 root DEBUG dOFF/dON = 5.8
+11:03:30,427 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.29635681647434, 'dON1': 0.08438005115426256, 'cIDON1': array([0, 1], dtype=int64), 'dON_patch_1': 0.08438005115426256, 'nTON': 1, 'dON': 0.08438005115426256, 'dxOFFAngle': 89.99878905488089, 'dOFF1': 0.4917388924252718, 'cIDOFF1': array([0, 1], dtype=int64), 'dOFF_patch_1': 0.4917388924252718, 'nTOFF': 1, 'dOFF': 0.4917388924252718, 'SUCCESS': True}
+11:03:30,470 root DEBUG 
+
+=================== Experiment ID #15 	 Dual Point ID: 16 ===================
+11:03:30,481 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.190E-08|<1.000E-06)
+11:03:30,482 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:30,917 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.707E-01 	 Total distance: 1.707E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([75], dtype=int64), array([[False]])]] 	 class: [8 9]
+11:03:31,284 root DEBUG Side: OFF	 Angle(dx0, dx): 0.04 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 8.903E-02 	 Total distance: 8.903E-02 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([131], dtype=int64), array([[ True]])]] 	 class: [8 9]
+11:03:31,511 root DEBUG Side: OFF	 Angle(dx0, dx): 0.15 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.337E-01 	 Total distance: 2.227E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([114], dtype=int64), array([[False]])]] 	 class: [8 9]
+11:03:31,511 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:31,511 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 13.21 	 cIDON = [8 9], cIDOFF = [8 9]
+11:03:31,511 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:31,511 root DEBUG dOFF/dON = 1.3
+11:03:31,511 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.4095054080538, 'dON1': 0.17071329226973594, 'cIDON1': array([8, 9], dtype=int64), 'dON_patch_1': 0.17071329226973594, 'nTON': 1, 'dON': 0.17071329226973594, 'dxOFFAngle': 89.31045999326663, 'dOFF1': 0.22270213635889824, 'cIDOFF1': array([8, 9], dtype=int64), 'dOFF_patch_1': 0.22270213635889824, 'nTOFF': 1, 'dOFF': 0.22270213635889824, 'SUCCESS': True}
+11:03:31,661 root DEBUG 
+
+=================== Experiment ID #16 	 Dual Point ID: 17 ===================
+11:03:31,669 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.681E-08|<1.000E-06)
+11:03:31,669 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:32,96 root DEBUG Side: ON	 Angle(dx0, dx): 0.19 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.364E-01 	 Total distance: 4.364E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([154], dtype=int64), array([[ True]])]] 	 class: [8 9]
+11:03:32,440 root DEBUG Side: OFF	 Angle(dx0, dx): 0.06 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.964E-01 	 Total distance: 5.964E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([185], dtype=int64), array([[ True]])]] 	 class: [8 9]
+11:03:32,718 root DEBUG Side: OFF	 Angle(dx0, dx): 0.37 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.416E-01 	 Total distance: 1.038E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([210], dtype=int64), array([[False]])]] 	 class: [8 9]
+11:03:32,718 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:32,719 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 40.80 	 cIDON = [8 9], cIDOFF = [8 9]
+11:03:32,719 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:32,719 root DEBUG dOFF/dON = 2.4
+11:03:32,719 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.69043602654988, 'dON1': 0.4363809757776483, 'cIDON1': array([8, 9], dtype=int64), 'dON_patch_1': 0.4363809757776483, 'nTON': 1, 'dON': 0.4363809757776483, 'dxOFFAngle': 89.773476137053, 'dOFF1': 1.0379927810186704, 'cIDOFF1': array([8, 9], dtype=int64), 'dOFF_patch_1': 1.0379927810186704, 'nTOFF': 1, 'dOFF': 1.0379927810186704, 'SUCCESS': True}
+11:03:32,867 root DEBUG 
+
+=================== Experiment ID #17 	 Dual Point ID: 18 ===================
+11:03:32,876 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |3.404E-09|<1.000E-06)
+11:03:32,876 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:33,243 root DEBUG Side: ON	 Angle(dx0, dx): 0.04 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.108E-01 	 Total distance: 5.108E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([198], dtype=int64), array([[ True]])]] 	 class: [3 6]
+11:03:33,593 root DEBUG Side: OFF	 Angle(dx0, dx): 0.19 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.670E-01 	 Total distance: 1.670E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([64], dtype=int64), array([[False]])]] 	 class: [3 6]
+11:03:33,593 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:33,594 root DEBUG 	 nT= 1  	 success?   False    	 (dON-dOFF)/|dON+dOFF|: -50.72 	 cIDON = [3 6], cIDOFF = [3 6]
+11:03:33,594 root DEBUG ===> #(dOFF_patch>dON_patch) = 0/1 = 0.00%
+11:03:33,594 root DEBUG dOFF/dON = 0.3
+11:03:33,594 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.82002655832065, 'dON1': 0.5108040431651452, 'cIDON1': array([3, 6], dtype=int64), 'dON_patch_1': 0.5108040431651452, 'nTON': 1, 'dON': 0.5108040431651452, 'dxOFFAngle': 89.65046457124474, 'dOFF1': 0.16699568790361605, 'cIDOFF1': array([3, 6], dtype=int64), 'dOFF_patch_1': 0.16699568790361605, 'nTOFF': 1, 'dOFF': 0.16699568790361605, 'SUCCESS': False}
+11:03:33,687 root DEBUG 
+
+=================== Experiment ID #18 	 Dual Point ID: 19 ===================
+11:03:33,696 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |4.526E-10|<1.000E-06)
+11:03:33,696 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:34,36 root DEBUG Side: ON	 Angle(dx0, dx): 2.04 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 7.325E-07 	 Total distance: 7.325E-07 	 Future toggles: 0 	 Past toggles: 0 	 Toggled: [[5, array([0, 1], dtype=int64), array([[0.],
+       [1.]])]] 	 class: [1 7]
+11:03:34,270 root DEBUG Side: ON	 Angle(dx0, dx): 0.16 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.911E-01 	 Total distance: 5.911E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([63], dtype=int64), array([[ True]])]] 	 class: [1 7]
+11:03:34,659 root DEBUG Side: OFF	 Angle(dx0, dx): 0.03 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.544E-01 	 Total distance: 6.544E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([33], dtype=int64), array([[ True]])]] 	 class: [0 7]
+11:03:34,659 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:34,659 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 5.08 	 cIDON = [1 7], cIDOFF = [0 7]
+11:03:34,659 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:34,659 root DEBUG dOFF/dON = 1.1
+11:03:34,660 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.10137144978387, 'dON1': 0.5911444567576244, 'cIDON1': array([1, 7], dtype=int64), 'dON_patch_1': 0.5911444567576244, 'nTON': 1, 'dON': 0.5911444567576244, 'dxOFFAngle': 88.20581535911984, 'dOFF1': 0.6543720942131586, 'cIDOFF1': array([0, 7], dtype=int64), 'dOFF_patch_1': 0.6543720942131586, 'nTOFF': 1, 'dOFF': 0.6543720942131586, 'SUCCESS': True}
+11:03:34,729 root DEBUG 
+
+=================== Experiment ID #19 	 Dual Point ID: 20 ===================
+11:03:34,739 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |5.996E-08|<1.000E-06)
+11:03:34,740 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:35,108 root DEBUG Side: ON	 Angle(dx0, dx): 0.02 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.307E+00 	 Total distance: 3.307E+00 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([64], dtype=int64), array([[ True]])]] 	 class: [3 9]
+11:03:35,334 root DEBUG Side: ON	 Angle(dx0, dx): 0.16 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.341E-01 	 Total distance: 3.541E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([82], dtype=int64), array([[ True]])]] 	 class: [3 9]
+11:03:35,644 root DEBUG Side: OFF	 Angle(dx0, dx): 0.16 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.519E-01 	 Total distance: 2.519E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([24], dtype=int64), array([[False]])]] 	 class: [3 9]
+11:03:35,951 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.926E+00 	 Total distance: 3.178E+00 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([182], dtype=int64), array([[False]])]] 	 class: [3 9]
+11:03:36,210 root DEBUG Side: OFF	 Angle(dx0, dx): 0.14 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.051E+00 	 Total distance: 4.228E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([176], dtype=int64), array([[ True]])]] 	 class: [3 9]
+11:03:36,210 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:36,210 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 8.85 	 cIDON = [3 9], cIDOFF = [3 9]
+11:03:36,211 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:36,211 root DEBUG dOFF/dON = 1.2
+11:03:36,211 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.44455731144444, 'dON1': 3.540610736577717, 'cIDON1': array([3, 9], dtype=int64), 'dON_patch_1': 3.540610736577717, 'nTON': 1, 'dON': 3.540610736577717, 'dxOFFAngle': 89.55348774349685, 'dOFF1': 4.22815904761386, 'cIDOFF1': array([3, 9], dtype=int64), 'dOFF_patch_1': 4.22815904761386, 'nTOFF': 1, 'dOFF': 4.22815904761386, 'SUCCESS': True}
+11:03:36,292 root DEBUG 
+
+=================== Experiment ID #20 	 Dual Point ID: 21 ===================
+11:03:36,301 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.079E-08|<1.000E-06)
+11:03:36,301 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:36,667 root DEBUG Side: ON	 Angle(dx0, dx): 0.31 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.429E-02 	 Total distance: 1.429E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[4, array([3], dtype=int64), array([[ True]])]] 	 class: [2 3]
+11:03:37,45 root DEBUG Side: OFF	 Angle(dx0, dx): 0.17 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.347E-01 	 Total distance: 3.347E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([233], dtype=int64), array([[ True]])]] 	 class: [2 3]
+11:03:37,46 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:37,46 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 91.81 	 cIDON = [2 3], cIDOFF = [2 3]
+11:03:37,46 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:37,46 root DEBUG dOFF/dON = 23.4
+11:03:37,46 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.87725087449681, 'dON1': 0.014293895474312507, 'cIDON1': array([2, 3], dtype=int64), 'dON_patch_1': 0.014293895474312507, 'nTON': 1, 'dON': 0.014293895474312507, 'dxOFFAngle': 89.75961062378316, 'dOFF1': 0.33470115262020717, 'cIDOFF1': array([2, 3], dtype=int64), 'dOFF_patch_1': 0.33470115262020717, 'nTOFF': 1, 'dOFF': 0.33470115262020717, 'SUCCESS': True}
+11:03:37,107 root DEBUG 
+
+=================== Experiment ID #21 	 Dual Point ID: 22 ===================
+11:03:37,137 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.340E-10|<1.000E-06)
+11:03:37,138 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:37,516 root DEBUG Side: ON	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.862E-01 	 Total distance: 1.862E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([128], dtype=int64), array([[ True]])]] 	 class: [2 3]
+11:03:37,769 root DEBUG Side: ON	 Angle(dx0, dx): 0.13 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.372E-01 	 Total distance: 6.234E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([128], dtype=int64), array([[False]])]] 	 class: [2 3]
+11:03:38,175 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.954E+00 	 Total distance: 1.954E+00 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([8], dtype=int64), array([[False]])]] 	 class: [2 3]
+11:03:38,460 root DEBUG Side: OFF	 Angle(dx0, dx): 0.03 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.473E-02 	 Total distance: 1.969E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[3, array([255], dtype=int64), array([[False]])]] 	 class: [2 3]
+11:03:38,461 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:38,461 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 51.91 	 cIDON = [2 3], cIDOFF = [2 3]
+11:03:38,461 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:38,461 root DEBUG dOFF/dON = 3.2
+11:03:38,461 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.54824221803129, 'dON1': 0.6234084491666764, 'cIDON1': array([2, 3], dtype=int64), 'dON_patch_1': 0.6234084491666764, 'nTON': 1, 'dON': 0.6234084491666764, 'dxOFFAngle': 89.34288408449407, 'dOFF1': 1.9690968218171319, 'cIDOFF1': array([2, 3], dtype=int64), 'dOFF_patch_1': 1.9690968218171319, 'nTOFF': 1, 'dOFF': 1.9690968218171319, 'SUCCESS': True}
+11:03:38,525 root DEBUG 
+
+=================== Experiment ID #22 	 Dual Point ID: 23 ===================
+11:03:38,533 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.373E-09|<1.000E-06)
+11:03:38,533 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:38,916 root DEBUG Side: ON	 Angle(dx0, dx): 0.03 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.720E-02 	 Total distance: 3.720E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([62], dtype=int64), array([[ True]])]] 	 class: [0 7]
+11:03:39,364 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.380E-01 	 Total distance: 1.380E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([23], dtype=int64), array([[False]])]] 	 class: [1 7]
+11:03:39,677 root DEBUG Side: OFF	 Angle(dx0, dx): 0.14 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.737E-01 	 Total distance: 6.117E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([125], dtype=int64), array([[ True]])]] 	 class: [1 7]
+11:03:39,677 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:39,677 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 88.53 	 cIDON = [0 7], cIDOFF = [1 7]
+11:03:39,677 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:39,677 root DEBUG dOFF/dON = 16.4
+11:03:39,677 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.94643854113744, 'dON1': 0.03720254380456891, 'cIDON1': array([0, 7], dtype=int64), 'dON_patch_1': 0.03720254380456891, 'nTON': 1, 'dON': 0.03720254380456891, 'dxOFFAngle': 89.37029939641457, 'dOFF1': 0.6116609244843152, 'cIDOFF1': array([1, 7], dtype=int64), 'dOFF_patch_1': 0.6116609244843152, 'nTOFF': 1, 'dOFF': 0.6116609244843152, 'SUCCESS': True}
+11:03:39,743 root DEBUG 
+
+=================== Experiment ID #23 	 Dual Point ID: 24 ===================
+11:03:39,755 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |2.970E-08|<1.000E-06)
+11:03:39,756 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:40,138 root DEBUG Side: ON	 Angle(dx0, dx): 1.58 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 3.464E-02 	 Total distance: 3.464E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[5, array([4, 6], dtype=int64), array([[1.],
+       [0.]])]] 	 class: [4 7]
+11:03:40,563 root DEBUG Side: OFF	 Angle(dx0, dx): 0.06 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.653E-01 	 Total distance: 4.653E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([3], dtype=int64), array([[False]])]] 	 class: [6 7]
+11:03:40,798 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 4.455E-01 	 Total distance: 9.107E-01 	 Future toggles: 0 	 Past toggles: 2 	 Toggled: [[1, array([168], dtype=int64), array([[False]])]] 	 class: [6 7]
+11:03:41,42 root DEBUG Side: OFF	 Angle(dx0, dx): 0.00 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.049E-02 	 Total distance: 9.312E-01 	 Future toggles: 0 	 Past toggles: 3 	 Toggled: [[1, array([241], dtype=int64), array([[False]])]] 	 class: [6 7]
+11:03:41,297 root DEBUG Side: OFF	 Angle(dx0, dx): 0.01 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 6.099E-01 	 Total distance: 1.541E+00 	 Future toggles: 0 	 Past toggles: 4 	 Toggled: [[1, array([255], dtype=int64), array([[False]])]] 	 class: [6 7]
+11:03:41,538 root DEBUG Side: OFF	 Angle(dx0, dx): 0.26 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.699E-01 	 Total distance: 1.811E+00 	 Future toggles: 0 	 Past toggles: 5 	 Toggled: [[1, array([86], dtype=int64), array([[ True]])]] 	 class: [6 7]
+11:03:41,751 root DEBUG Side: OFF	 Angle(dx0, dx): 0.02 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.381E-01 	 Total distance: 1.949E+00 	 Future toggles: 0 	 Past toggles: 6 	 Toggled: [[1, array([181], dtype=int64), array([[ True]])]] 	 class: [6 7]
+11:03:42,92 root DEBUG Side: OFF	 Angle(dx0, dx): 0.30 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 1.596E+00 	 Total distance: 3.545E+00 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([200], dtype=int64), array([[ True]])]] 	 class: [6 7]
+11:03:42,92 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:42,92 root DEBUG 	 nT= 1  	 success?    True    	 (dON-dOFF)/|dON+dOFF|: 98.06 	 cIDON = [6 7], cIDOFF = [6 7]
+11:03:42,93 root DEBUG ===> #(dOFF_patch>dON_patch) = 1/1 = 100.00%
+11:03:42,93 root DEBUG dOFF/dON = 102.4
+11:03:42,93 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 88.85761240471766, 'dON1': 0.03463866301934983, 'cIDON1': array([6, 7], dtype=int64), 'dON_patch_1': 0.03463866301934983, 'nTON': 1, 'dON': 0.03463866301934983, 'dxOFFAngle': 89.08160356661313, 'dOFF1': 3.545280359492759, 'cIDOFF1': array([6, 7], dtype=int64), 'dOFF_patch_1': 3.545280359492759, 'nTOFF': 1, 'dOFF': 3.545280359492759, 'SUCCESS': True}
+11:03:42,201 root DEBUG 
+
+=================== Experiment ID #24 	 Dual Point ID: 25 ===================
+11:03:42,209 root DEBUG CONTROL: 	 OK! 	 (target neuron output < tolerance: |3.262E-08|<1.000E-06)
+11:03:42,209 root DEBUG CONTROL DUAL POINT: Check that target neuron output < tolerance ({tol:.3E}) at x_dual.
+11:03:42,581 root DEBUG Side: ON	 Angle(dx0, dx): 0.09 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 2.460E-01 	 Total distance: 2.460E-01 	 Future toggles: 0 	 Past toggles: 1 	 Toggled: [[1, array([243], dtype=int64), array([[ True]])]] 	 class: [4 7]
+11:03:42,806 root DEBUG Side: ON	 Angle(dx0, dx): 0.40 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.472E-01 	 Total distance: 7.932E-01 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([161], dtype=int64), array([[ True]])]] 	 class: [4 7]
+11:03:43,195 root DEBUG Side: OFF	 Angle(dx0, dx): 0.02 deg 	 Angle(n, nold): 0.00 deg 	 Distance in patch: 5.892E-02 	 Total distance: 5.892E-02 	 Future toggles: 1 	 Past toggles: 1 	 Toggled: [[2, array([55], dtype=int64), array([[ True]])]] 	 class: [4 7]
+11:03:43,195 root DEBUG Check patch-by-patch distances for success (dOFF_patch>dON_patch) and ratio (dOFF_patch/dON_patch):
+11:03:43,196 root DEBUG 	 nT= 1  	 success?   False    	 (dON-dOFF)/|dON+dOFF|: -86.17 	 cIDON = [4 7], cIDOFF = [4 7]
+11:03:43,196 root DEBUG ===> #(dOFF_patch>dON_patch) = 0/1 = 0.00%
+11:03:43,196 root DEBUG dOFF/dON = 0.1
+11:03:43,196 root DEBUG {'CHOOSE_DX': 'along_decision_boundary', 'dxONAngle': 89.18427675950895, 'dON1': 0.7931693328519195, 'cIDON1': array([4, 7], dtype=int64), 'dON_patch_1': 0.7931693328519195, 'nTON': 1, 'dON': 0.7931693328519195, 'dxOFFAngle': 89.64627026454153, 'dOFF1': 0.058924780768329084, 'cIDOFF1': array([4, 7], dtype=int64), 'dOFF_patch_1': 0.058924780768329084, 'nTOFF': 1, 'dOFF': 0.058924780768329084, 'SUCCESS': False}
+11:03:43,612 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,612 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,612 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,612 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,612 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 1189
+11:03:43,617 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,618 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,618 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,618 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,618 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 2994
+11:03:43,633 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,633 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,633 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,633 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,633 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 696
+11:03:43,636 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,637 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,637 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,637 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,637 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 526
+11:03:43,640 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,640 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,641 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,641 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,641 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 499
+11:03:43,644 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,644 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,644 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,645 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,645 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 673
+11:03:43,648 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,648 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,648 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,648 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,648 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 922
+11:03:43,652 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,652 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,652 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,652 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,653 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 568
+11:03:43,656 PIL.PngImagePlugin DEBUG STREAM b'IHDR' 16 13
+11:03:43,656 PIL.PngImagePlugin DEBUG STREAM b'sBIT' 41 4
+11:03:43,656 PIL.PngImagePlugin DEBUG b'sBIT' 41 4 (unknown)
+11:03:43,656 PIL.PngImagePlugin DEBUG STREAM b'pHYs' 57 9
+11:03:43,656 PIL.PngImagePlugin DEBUG STREAM b'IDAT' 78 626
