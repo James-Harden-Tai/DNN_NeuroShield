@@ -1013,8 +1013,16 @@ function selectPhase(phase) {
 </script>
 """, unsafe_allow_html=True)
 
+
+logo_path = os.path.join(_SCRIPT_DIR, "logo.png") 
+# 在侧边栏顶部居中显示logo
+with st.sidebar:
+    st.markdown('<div style="text-align:center;">', unsafe_allow_html=True)
+    st.image(logo_path, width=200, output_format='auto', use_column_width=False)
+    st.markdown('</div>', unsafe_allow_html=True)
 # 侧边栏控制 - 移除原来的selectbox，改为状态显示
 st.sidebar.markdown('<div class="glitch">⚡ ATTACK CONSOLE</div>', unsafe_allow_html=True)
+
 
 # 加载数据的函数
 @st.cache_data
@@ -1852,6 +1860,17 @@ st.markdown("""
         <small style="color: #666;">Security Research Use Only - Educational Purposes</small>
     </div>
 </div>
+""", unsafe_allow_html=True)
+
+# 让侧边栏logo紧贴顶部
+st.markdown("""
+<style>
+/* 让侧边栏logo紧贴顶部 */
+section[data-testid=\"stSidebar\"] > div:first-child {
+    padding-top: 1px !important;
+    margin-top: 0 !important;
+}
+</style>
 """, unsafe_allow_html=True)
 
 
