@@ -1018,7 +1018,7 @@ logo_path = os.path.join(_SCRIPT_DIR, "logo.png")
 # 在侧边栏顶部居中显示logo
 with st.sidebar:
     st.markdown('<div style="text-align:center;">', unsafe_allow_html=True)
-    st.image(logo_path, width=200, output_format='auto', use_column_width=False)
+    st.image(logo_path, width=200, output_format='auto')
     st.markdown('</div>', unsafe_allow_html=True)
 # 侧边栏控制 - 移除原来的selectbox，改为状态显示
 st.sidebar.markdown('<div class="glitch">⚡ ATTACK CONSOLE</div>', unsafe_allow_html=True)
